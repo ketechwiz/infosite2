@@ -85,14 +85,11 @@ export default function Home() {
               className="relative lg:h-[600px] flex items-center justify-center"
             >
               <div className="relative w-full max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border-8 border-white bg-stone-200">
-                {/* Placeholder for user photo */}
-                <div className="absolute inset-0 flex items-center justify-center bg-stone-100 text-stone-400">
-                  <div className="text-center p-6">
-                     <Users className="w-20 h-20 mx-auto mb-4 opacity-20" />
-                     <p>Upload Photo Here</p>
-                     <p className="text-xs mt-2">(Use find_replace to add &lt;img&gt;)</p>
-                  </div>
-                </div>
+                <img 
+                  src="/ramya-photo.png" 
+                  alt="Ramya Elangovan"
+                  className="w-full h-full object-cover"
+                />
                 
                 {/* Floating Stats Cards */}
 
