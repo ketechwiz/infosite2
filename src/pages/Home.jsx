@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from 'react-router-dom';
+import TedxShowcase from '../components/TedxShowcase';
 
 const createPageUrl = (pageName) => {
   return pageName === 'Home' ? '/' : `/${pageName}`;
@@ -146,6 +147,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* TEDx Talk Showcase */}
+      <TedxShowcase />
 
       {/* Featured Research Section */}
       <section className="py-24 bg-[#FDFCF8]">
