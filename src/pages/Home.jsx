@@ -124,7 +124,7 @@ export default function Home() {
             {[
               { label: "Class Rank", value: "1", suffix: "/194", icon: Trophy },
               { label: "AP Exams", value: "12", suffix: " (All 5s)", icon: Brain },
-              { label: "Conferences", value: "6+", suffix: " Intl.", icon: Users },
+              { label: "Conferences", value: "7+", suffix: " Intl.", icon: Users },
               { label: "GPA", value: "4.93", suffix: "/4.0", icon: Activity },
             ].map((stat, index) => (
               <motion.div 
