@@ -48,10 +48,6 @@ const TedxShowcase = () => {
                 allowFullScreen
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-red-600 text-white px-6 py-3 rounded-xl shadow-xl font-bold text-sm">
-              <Play className="w-4 h-4 inline mr-2" />
-              Watch Now
-            </div>
           </motion.div>
 
           {/* Talk Description */}
@@ -63,7 +59,7 @@ const TedxShowcase = () => {
           >
             <div>
               <p className="text-amber-400 font-medium text-sm uppercase tracking-wider mb-2">
-                TEDxYouth@TheWoodlands
+                TEDX TALK
               </p>
               <h3 className="text-2xl md:text-3xl font-bold mb-3">The Power of AI Oculomics</h3>
             </div>
@@ -104,7 +100,7 @@ const TedxShowcase = () => {
                 className="bg-red-600 hover:bg-red-700 text-white border-none shadow-xl hover:shadow-2xl transition-all"
               >
                 <Youtube className="mr-2 w-5 h-5" />
-                Watch Full Talk
+                Watch on YouTube
               </Button>
             </a>
           </motion.div>
