@@ -198,6 +198,30 @@ export default function Conferences() {
                  <span className="text-sm font-medium">Rice University Eureka Journal</span>
                </li>
             </ul>
+            
+            <div className="mt-6 pt-6 border-t border-white/10">
+              <h4 className="text-sm font-bold mb-3 text-amber-300">AIHC Video Presentations</h4>
+              <div className="space-y-2">
+                <a 
+                  href="https://youtu.be/k5Jebw-6KNA?si=cBeEuJgxWQL8FsRk" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-stone-300 hover:text-amber-300 transition-colors"
+                >
+                  <span className="w-1.5 h-1.5 bg-red-400 rounded-full" />
+                  COLAID Presentation
+                </a>
+                <a 
+                  href="https://youtu.be/2VlbRA3BazQ?si=hBlIxcvrEV87wgMr" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-stone-300 hover:text-amber-300 transition-colors"
+                >
+                  <span className="w-1.5 h-1.5 bg-red-400 rounded-full" />
+                  SMART Presentation
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
