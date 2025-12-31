@@ -107,6 +107,154 @@ export default function Leadership() {
           ))}
         </div>
 
+        {/* School Clubs Section */}
+        <div className="mt-20">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">School Club Leadership</h2>
+            <p className="text-stone-600 max-w-2xl mx-auto">
+              Building communities of learning and innovation through student organizations.
+            </p>
+          </motion.div>
+        
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -3 }}
+              className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-amber-50 rounded-lg flex items-center justify-center">
+                  <Brain className="w-5 h-5 text-amber-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-stone-900">AI Club</h3>
+                  <p className="text-xs text-stone-500">President</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-600 leading-relaxed">
+                Leading discussions on cutting-edge AI research. Organizing workshops on ML fundamentals and ethical AI development.
+              </p>
+            </motion.div>
+        
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.05 }}
+              whileHover={{ y: -3 }}
+              className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-stone-50 rounded-lg flex items-center justify-center">
+                  <Award className="w-5 h-5 text-stone-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-stone-900">Science Fair Club</h3>
+                  <p className="text-xs text-stone-500">President</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-600 leading-relaxed">
+                Mentoring students from hypothesis to presentation. Coordinating participation in regional and state competitions.
+              </p>
+            </motion.div>
+        
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              whileHover={{ y: -3 }}
+              className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-amber-50 rounded-lg flex items-center justify-center">
+                  <Code className="w-5 h-5 text-amber-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-stone-900">Girls Who Code</h3>
+                  <p className="text-xs text-stone-500">Founder & President</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-600 leading-relaxed">
+                Organizing coding workshops and sessions. Securing guest speakers to inspire the next generation of women in tech.
+              </p>
+            </motion.div>
+        
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.15 }}
+              whileHover={{ y: -3 }}
+              className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-stone-50 rounded-lg flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-stone-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-stone-900">HOSA</h3>
+                  <p className="text-xs text-stone-500">President</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-600 leading-relaxed">
+                Preparing members for healthcare careers through competitive events. Organizing community health initiatives and medical simulations.
+              </p>
+            </motion.div>
+        
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              whileHover={{ y: -3 }}
+              className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-amber-50 rounded-lg flex items-center justify-center">
+                  <Users className="w-5 h-5 text-amber-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-stone-900">Girl Up</h3>
+                  <p className="text-xs text-stone-500">President</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-600 leading-relaxed">
+                Championing gender equality through advocacy campaigns. Leading fundraising for global girls' education and health programs.
+              </p>
+            </motion.div>
+        
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.25 }}
+              whileHover={{ y: -3 }}
+              className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-stone-50 rounded-lg flex items-center justify-center">
+                  <Award className="w-5 h-5 text-stone-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-stone-900">Biology Olympiad</h3>
+                  <p className="text-xs text-stone-500">President</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-600 leading-relaxed">
+                Training students for USABO through intensive study sessions. Organizing lab workshops and guest lectures from researchers.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+
         {/* Additional Mentorship Section */}
         <div className="mt-20">
           <div className="bg-amber-50 rounded-3xl p-8 md:p-12 border border-amber-100">
