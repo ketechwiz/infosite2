@@ -223,6 +223,41 @@ export default function Conferences() {
               </div>
             </div>
           </div>
+
+          {/* School News Articles */}
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+            <h3 className="text-xl font-bold mb-4 text-stone-900 flex items-center gap-2">
+              <div className="w-2 h-2 bg-amber-500 rounded-full" />
+              School News Features
+            </h3>
+            <p className="text-stone-600 text-sm mb-4">
+              Featured in CVHS News for research excellence and innovation.
+            </p>
+            <div className="space-y-3">
+              <a 
+                href="https://cvhsnews.org/19770/features/a-vision-for-innovation-ramya-elangovan-and-rhea-morani-journey-to-research/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block p-3 bg-stone-50 rounded-lg hover:bg-amber-50 transition-colors border border-stone-100 hover:border-amber-200 group"
+              >
+                <p className="text-sm font-medium text-stone-800 group-hover:text-amber-800 leading-snug">
+                  A vision for innovation: Ramya Elangovan and Rhea Morani journey to research
+                </p>
+                <span className="text-xs text-stone-400 mt-1 inline-block">CVHS News →</span>
+              </a>
+              <a 
+                href="https://cvhsnews.org/21367/news/eight-cvhs-students-present-their-research-at-the-2024-2025-rice-eureka-mentorship-program/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block p-3 bg-stone-50 rounded-lg hover:bg-amber-50 transition-colors border border-stone-100 hover:border-amber-200 group"
+              >
+                <p className="text-sm font-medium text-stone-800 group-hover:text-amber-800 leading-snug">
+                  Eight CVHS students present their research at the 2024-2025 Rice Eureka Mentorship Program
+                </p>
+                <span className="text-xs text-stone-400 mt-1 inline-block">CVHS News →</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
