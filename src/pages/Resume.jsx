@@ -123,19 +123,198 @@ export default function Resume() {
             <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider mb-6 flex items-center gap-2 border-b border-stone-200 pb-2">
               <Trophy className="w-5 h-5 text-amber-600" /> Selected Honors & Awards
             </h3>
-            <div className="grid md:grid-cols-2 gap-x-8 gap-y-4">
-              {awards.map((award, i) => (
-                <div key={i} className="flex items-start group">
+            
+            {/* National Recognition */}
+            <div className="mb-8">
+              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">National Recognition</h4>
+              <div className="space-y-3">
+                <div className="flex items-start group">
                   <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
                   <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
-                    <span className="font-medium text-stone-800">{award.title}</span>
-                    <span className="float-right text-stone-400 text-sm ml-2">{award.year}</span>
+                    <span className="font-medium text-stone-800">National Merit Semifinalist</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
                   </div>
                 </div>
-              ))}
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">AP Capstone Diploma</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">2x AP Scholar with Distinction Award</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2024, 2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">AP with WE Service Recognition</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">CITGO Scholar ($5,000)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">USA Biology Olympiad Semifinalist</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Presidential Gold Service Award</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2024</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p className="text-sm text-stone-500 mt-4 italic text-right">
-              *Recipient of 9 institutional awards for academic excellence across STEM and humanities.
+          
+            {/* Competition Awards */}
+            <div className="mb-8">
+              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Competition Awards</h4>
+              <div className="space-y-3">
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Semifinalist, EdTalk Youth Innovation Challenge (Mayor's Office)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">1st Place, Texas State Science Beta Club</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2024, 2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Silver Key, Scholastic Art & Writing Awards (Personal Essay & Memoir)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            {/* Science Fair Awards */}
+            <div className="mb-8">
+              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Science Fair Awards</h4>
+              <div className="space-y-3">
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Grand Award, Life Sciences Division (Science & Engineering Fair of Houston)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">1st Place, Writing Contest (Science & Engineering Fair of Houston)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">1st Place, Behavioral & Social Sciences (Science & Engineering Fair of Houston)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Jacob's Science Explorer Award from NASA (SEFH)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Award of Excellence from GCSTG (SEFH)</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">1st Place, Baylor College of Medicine Academy STEAM Symposium</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2020</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            {/* Spelling Bee Awards */}
+            <div className="mb-8">
+              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Spelling Bee Awards</h4>
+              <div className="space-y-3">
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Champion, Houston PBS Regional, HISD, & TH Rogers Middle School</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">3rd Place, Houston PBS Regional; Champion HISD & Baylor College of Medicine Academy</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2020</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            {/* Invited Speaker */}
+            <div>
+              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Invited Speaker Engagements</h4>
+              <div className="space-y-3">
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">TEDx McFarren Boulevard Youth - "Eyes as Windows to Health"</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Eternal Gandhi Museum - Social Media & Peace Promotion</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2024</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">North Houston Space Society - Stress Management by Mindfulness</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2022</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Rice University Open Rice - Design for Face-to-Face & Online Learning</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <p className="text-sm text-stone-500 mt-6 italic">
+              *Recipient of 9 additional institutional awards for academic excellence across STEM and humanities.
             </p>
           </section>
 
