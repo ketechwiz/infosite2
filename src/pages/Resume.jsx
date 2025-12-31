@@ -208,6 +208,41 @@ export default function Resume() {
               </div>
             </div>
           
+            {/* Invited Speaker */}
+            <div>
+              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Invited Speaker Engagements</h4>
+              <div className="space-y-3">
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">TEDx McFarren Boulevard Youth - "Eyes as Windows to Health"</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Eternal Gandhi Museum - Social Media & Peace Promotion</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2024</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">North Houston Space Society - Stress Management by Mindfulness</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2022</span>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
+                    <span className="font-medium text-stone-800">Rice University Open Rice - Design for Face-to-Face & Online Learning</span>
+                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Science Fair Awards */}
             <div className="mb-8">
               <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Science Fair Awards</h4>
@@ -273,41 +308,6 @@ export default function Resume() {
                   <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
                     <span className="font-medium text-stone-800">3rd Place, Houston PBS Regional; Champion HISD & Baylor College of Medicine Academy</span>
                     <span className="float-right text-stone-400 text-sm ml-2">2020</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            {/* Invited Speaker */}
-            <div>
-              <h4 className="font-bold text-stone-800 mb-4 text-sm uppercase tracking-wide">Invited Speaker Engagements</h4>
-              <div className="space-y-3">
-                <div className="flex items-start group">
-                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
-                    <span className="font-medium text-stone-800">TEDx McFarren Boulevard Youth - "Eyes as Windows to Health"</span>
-                    <span className="float-right text-stone-400 text-sm ml-2">2025</span>
-                  </div>
-                </div>
-                <div className="flex items-start group">
-                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
-                    <span className="font-medium text-stone-800">Eternal Gandhi Museum - Social Media & Peace Promotion</span>
-                    <span className="float-right text-stone-400 text-sm ml-2">2024</span>
-                  </div>
-                </div>
-                <div className="flex items-start group">
-                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
-                    <span className="font-medium text-stone-800">North Houston Space Society - Stress Management by Mindfulness</span>
-                    <span className="float-right text-stone-400 text-sm ml-2">2022</span>
-                  </div>
-                </div>
-                <div className="flex items-start group">
-                  <ChevronRight className="w-4 h-4 text-amber-500 mt-1 mr-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <div className="flex-grow border-b border-stone-100 pb-2 border-dashed">
-                    <span className="font-medium text-stone-800">Rice University Open Rice - Design for Face-to-Face & Online Learning</span>
-                    <span className="float-right text-stone-400 text-sm ml-2">2021</span>
                   </div>
                 </div>
               </div>
