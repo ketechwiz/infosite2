@@ -291,6 +291,70 @@ export default function Home() {
            </div>
         </div>
       </section>
+
+      {/* Other Distinctions Section */}
+      <section className="py-24 bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 text-white relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500/10 rounded-full blur-3xl" />
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Other Distinctions</h2>
+            <p className="text-stone-300 max-w-2xl mx-auto">
+              Excellence across diverse academic competitions from an early age.
+            </p>
+          </motion.div>
+      
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center flex-shrink-0 border border-amber-500/30">
+                  <Award className="w-6 h-6 text-amber-400" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Broadcom MASTERS</h3>
+                  <p className="text-amber-400 text-sm font-medium mb-3">Science Fair Top 300 National Finalist • 2021</p>
+                  <p className="text-stone-300 text-sm leading-relaxed">
+                    Recognized among the nation's top middle school STEM students for original research. Competed at the national level in the premier science and engineering competition for grades 6-8.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+      
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center flex-shrink-0 border border-amber-500/30">
+                  <Trophy className="w-6 h-6 text-amber-400" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Scripps National Spelling Bee</h3>
+                  <p className="text-amber-400 text-sm font-medium mb-3">National Finalist • 2021</p>
+                  <p className="text-stone-300 text-sm leading-relaxed">
+                    Competed at the prestigious Scripps National Spelling Bee finals in Washington D.C. Demonstrated exceptional linguistic mastery and competitive excellence on the national stage.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
