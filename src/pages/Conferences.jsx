@@ -198,6 +198,21 @@ export default function Conferences() {
                  <span className="text-sm font-medium">Rice University Eureka Journal</span>
                </li>
             </ul>
+
+            <div className="mt-6 pt-6 border-t border-white/10">
+              <h4 className="text-sm font-bold mb-3 text-amber-300">Endocrine News Articles</h4>
+              <div className="space-y-2">
+                <a 
+                  href="https://endocrinenews.endocrine.org/ai-in-the-family/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-stone-300 hover:text-amber-300 transition-colors"
+                >
+                  <span className="w-1.5 h-1.5 bg-red-400 rounded-full" />
+                  AI in the Family
+                </a>
+              </div>
+            </div>
             
             <div className="mt-6 pt-6 border-t border-white/10">
               <h4 className="text-sm font-bold mb-3 text-amber-300">AIHC Video Presentations</h4>
